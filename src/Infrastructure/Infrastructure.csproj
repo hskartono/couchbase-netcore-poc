@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>AppCoreApi.Infrastructure</RootNamespace>
+    <!-- <ApplicationManifest>Repositories\ReceivingRepositoryCutom.manifest</ApplicationManifest> -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationCore\ApplicationCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.EFCore.Extensions" Version="1.1.0" />
+    <PackageReference Include="Ardalis.Specification" Version="4.2.0" />
+    <PackageReference Include="Ardalis.Specification.EntityFrameworkCore" Version="4.2.0" />
+    <PackageReference Include="CouchbaseNetClient" Version="3.2.2" />
+    <PackageReference Include="Dapper" Version="2.0.78" />
+    <PackageReference Include="EPPlus" Version="5.5.5" />
+    <PackageReference Include="Hangfire.Core" Version="1.7.19" />
+    <PackageReference Include="itext7.pdfhtml" Version="3.0.3" />
+    <PackageReference Include="Linq2Couchbase" Version="1.4.2" />
+    <PackageReference Include="MailKit" Version="2.12.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="NPOI" Version="2.5.3" />
+    <PackageReference Include="System.IO.Compression.ZipFile" Version="4.3.0" />
+    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+	<!--QrCode-->
+	  <PackageReference Include="QRCoder" Version="1.4.1" />
+  </ItemGroup>
+
+</Project>

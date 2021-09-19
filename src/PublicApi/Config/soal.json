@@ -1,0 +1,26 @@
+{
+  "assembly": "AppCoreApi.ApplicationCore.Entities.Soal, ApplicationCore",
+  "worksheet": "Soal",
+  "columnsMap": [
+  {
+    "property": "Id",
+    "colIndex": 1,
+    "type": "string",
+    "title": "Id Soal"
+  },
+  {
+    "property": "_RefPrimaryKey",
+    "PK": true,
+    "colIndex": 2,
+    "type": "string",
+    "title": "PK"
+  },
+  {
+    "property": "Konten",
+    "colIndex": 3,
+    "type": "string",
+    "title": "Konten Soal"
+  }
+
+  ]
+}

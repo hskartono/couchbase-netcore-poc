@@ -1,0 +1,43 @@
+{
+  "assembly": "UnitTest.Infrastructure.Services.SecondWorksheet, UnitTest",
+  "worksheet": "Second Worksheet",
+  "columnsMap": [
+    {
+      "property": "Id",
+      "colIndex": 1,
+      "type": "int",
+      "title": "ID"
+    },
+    {
+      "property": "_RefPrimaryKey",
+      "PK": true,
+      "colIndex": 2,
+      "type": "string",
+      "title": "PK"
+    },
+    {
+      "property": "ChildName",
+      "colIndex": 3,
+      "type": "string",
+      "title": "Name"
+    },
+    {
+      "property": "ChildSalary",
+      "colIndex": 4,
+      "type": "double",
+      "title": "Salary"
+    },
+    {
+      "property": "ChildBirthDate",
+      "colIndex": 5,
+      "type": "datetime",
+      "title": "BirthDate"
+    },
+    {
+      "property": "ChildIsMale",
+      "colIndex": 6,
+      "type": "bool",
+      "title": "isMale"
+    }
+  ]
+}

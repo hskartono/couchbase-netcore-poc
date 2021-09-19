@@ -1,0 +1,29 @@
+[
+  {
+    "Nama": "Harry",
+    "Alamat": "Jl. Raya Taman Cimanggu",
+    "No Telepon": "8777777777",
+    "Is Male": true,
+    "Tanggal Lahir": "1982-06-24",
+    "Catatan": null,
+    "Nomor KTP": 327102240682001
+  },
+  {
+    "Nama": "Saputra",
+    "Alamat": "Jl. Malabar Ujung",
+    "No Telepon": "02518375785",
+    "Is Male": false,
+    "Tanggal Lahir": "1982-06-25",
+    "Catatan": null,
+    "Nomor KTP": 32710325068202
+  },
+  {
+    "Nama": "Kartono",
+    "Alamat": "Jl. Balita",
+    "No Telepon": "02518355585",
+    "Is Male": true,
+    "Tanggal Lahir": "2020-01-01",
+    "Catatan": null,
+    "Nomor KTP": 32710304948393
+  }
+]

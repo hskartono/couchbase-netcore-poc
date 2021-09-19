@@ -1,0 +1,64 @@
+{
+  "assembly": "AppCoreApi.ApplicationCore.Entities.KuisionerDetail, ApplicationCore",
+  "worksheet": "KuisionerDetail",
+  "columnsMap": [
+  {
+    "property": "Id",
+    "colIndex": 1,
+    "type": "int",
+    "title": "ID"
+  },
+  {
+    "property": "_RefForeignKey",
+    "FK": true,
+    "colIndex": 2,
+    "type": "string",
+    "title": "FK"
+  },
+  {
+    "property": "KuisionerId",
+    "colIndex": 3,
+    "type": "object",
+    "assembly": "AppCoreApi.ApplicationCore.Entities.Kuisioner, ApplicationCore",
+    "title": "Kuisioner"
+  },
+  {
+    "property": "SoalId",
+    "colIndex": 4,
+    "type": "object",
+    "assembly": "AppCoreApi.ApplicationCore.Entities.Soal, ApplicationCore",
+    "title": "Soal"
+  },
+  {
+    "property": "KontenSoal",
+    "colIndex": 5,
+    "type": "string",
+    "title": "Konten Soal"
+  },
+  {
+    "property": "Pilihan1",
+    "colIndex": 6,
+    "type": "string",
+    "title": "Pilihan 1"
+  },
+  {
+    "property": "PIlihan2",
+    "colIndex": 7,
+    "type": "string",
+    "title": "PIlihan 2"
+  },
+  {
+    "property": "Pilihan3",
+    "colIndex": 8,
+    "type": "string",
+    "title": "Pilihan 3"
+  },
+  {
+    "property": "KunciJawaban",
+    "colIndex": 9,
+    "type": "int",
+    "title": "Kunci Jawaban"
+  }
+
+  ]
+}

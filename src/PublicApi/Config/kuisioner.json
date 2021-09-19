@@ -1,0 +1,43 @@
+{
+  "assembly": "AppCoreApi.ApplicationCore.Entities.Kuisioner, ApplicationCore",
+  "worksheet": "Kuisioner",
+  "columnsMap": [
+  {
+    "property": "Id",
+    "colIndex": 1,
+    "type": "int",
+    "title": "ID"
+  },
+  {
+    "property": "_RefPrimaryKey",
+    "PK": true,
+    "colIndex": 2,
+    "type": "string",
+    "title": "PK"
+  },
+  {
+    "property": "Judul",
+    "colIndex": 3,
+    "type": "string",
+    "title": "Judul"
+  },
+  {
+    "property": "AktifDari",
+    "colIndex": 4,
+    "type": "datetime",
+    "title": "Aktif Dari"
+  },
+  {
+    "property": "AktifSampai",
+    "colIndex": 5,
+    "type": "datetime",
+    "title": "Aktif Sampai"
+  }
+,
+  {
+    "property": "KuisionerDetail",
+    "type": "collection",
+    "mapFile": "kuisionerDetail.json",
+  }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "assembly": "UnitTest.Infrastructure.Services.SingleWorksheet, UnitTest",
+  "worksheet": "Single Worksheet",
+  "columnsMap": [
+    {
+      "property": "Id",
+      "colIndex": 1,
+      "type": "int",
+      "title": "ID"
+    },
+    {
+      "property": "_RefForeignKey",
+      "FK": true,
+      "colIndex": 2,
+      "type": "string",
+      "title": "FK"
+    },
+    {
+      "property": "Name",
+      "colIndex": 3,
+      "type": "string",
+      "title": "Name"
+    },
+    {
+      "property": "Salary",
+      "colIndex": 4,
+      "type": "double",
+      "title": "Salary"
+    },
+    {
+      "property": "BirthDate",
+      "colIndex": 5,
+      "type": "datetime",
+      "title": "BirthDate"
+    },
+    {
+      "property": "isMale",
+      "colIndex": 6,
+      "type": "bool",
+      "title": "isMale"
+    },
+    {
+      "property": "ShiftTime",
+      "colIndex": 5,
+      "type": "datetime",
+      "title": "Shift Time"
+    }
+  ]
+}
